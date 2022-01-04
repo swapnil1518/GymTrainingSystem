@@ -1,5 +1,5 @@
-# Health Management System
-# 3 clients - Harry, Rohan and Hammad
+# Gym Training System
+# 3 clients -Clay, Sam, Tina
 # 3 files for logging food. 3 files for logging exercise.
 
 # Create a food log file for each client
@@ -98,7 +98,7 @@ def retrieve(k):
     else:
         print("plz enter valid input (Clay,Sam,Tina)")
 
-print("Health Management System")
+print("Gym Training System")
 a = int(input("enter 1 for LOG and 2 for RETRIEVE the value"))
 if a == 1:
     b = int(input("Enter 1 for Clay, 2 for Sam, 3 for Tina"))
